@@ -28,7 +28,10 @@ The name *Hydra* refers to "hydraulics", and *Py* denotes the Python implementat
 
 ## 📥 Input Files
 
-- `inpHydraPy.txt` — initial conditions (mesh, coolant density, etc.).
+- `power.txt`: **Power distribution** (assemblies × axial layers) from neutronics codes (MCNP/Serpent/OpenMC).
+- `inpHydraPy.txt`: **Configuration file** containing:
+  - `average density`: Initial guesses for coolant density (iteratively updated).
+  - `mesh`: Axial layer heights (uniform or non-uniform).
 
 ## 📤 Output Files
 
