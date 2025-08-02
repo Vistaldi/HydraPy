@@ -29,8 +29,11 @@ The name *Hydra* refers to "hydraulics", and *Py* denotes the Python implementat
 ## 📥 Input Files
 
 - `inpHydraPy.txt` — initial conditions (mesh, coolant density, etc.).
-- `coolant-density.txt` — calculated coolant density in each layer and assembly.
-- `Tdopp.txt` — average fuel temperature per layer and assembly (used for neutron physics calculations).
+
+## 📤 Output Files
+
+- `coolant-density.txt` — calculated coolant density in each axial layer and fuel assembly.
+- `Tdopp.txt` — average fuel temperature per layer and assembly (for neutron physics calculations).
 
 ## 🚀 Usage
 
